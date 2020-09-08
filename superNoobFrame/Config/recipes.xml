@@ -1,0 +1,16 @@
+<superNoobFrameRecipes>
+  <append xpath="/recipes">
+    <recipe name="superNoobFrameBlockVariantHelper" count="1" craft_time = "10" tags="perkMiner69r,learnable">
+      <ingredient name="resourceScrapIron" count="30"/>
+      <ingredient name="resourceRockSmall" count="28"/>
+    </recipe>
+
+    <recipe name="superNoobFrameBlockVariantHelper" material_based="true" craft_area="forge" tags="perkAdvancedEngineering,perkMiner69r,learnable">
+    	<ingredient name="unit_iron" count="30"/>
+    	<ingredient name="unit_stone" count="28"/>
+      <effect_group>
+      	<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_iron"/>
+      </effect_group>
+    </recipe>
+  </append>
+</superNoobFrameRecipes>

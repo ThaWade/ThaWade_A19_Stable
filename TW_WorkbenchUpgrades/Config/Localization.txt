@@ -1,0 +1,16 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate
+
+TW_WireCutters,items,Item,,,TW Wire Snips,,
+TW_WireCuttersDesc,items,Item,,,A tool that can be installed in a Workbench. It increases the crafting speed of that Workbench.,,
+
+TW_Hammer,items,Item,,,TW Hammer,,
+TW_HammerDesc,items,Item,,,A tool that can be installed in a Workbench. It increases the crafting speed of that Workbench.,,
+
+TW_PipeWrench,items,Item,,,TW Pipe Wrench,,
+TW_PipeWrenchDesc,items,Item,,,A tool that can be installed in a Workbench. It increases the crafting speed of that Workbench.,,
+
+TW_WireCuttersSchematic,items,Item,,,TW Wire Snips Schematic,,
+TW_HammerSchematic,items,Item,,,TW Hammer Schematic,,
+TW_PipeWrenchSchematic,items,Item,,,TW Pipe Wrench Schematic,,
+
+statCraftingTimeWorkbench,ui_display,Item stat,,,Workbench Crafting Speed,,

@@ -1,0 +1,117 @@
+<tw_toolsrecipes>
+  <append xpath="/recipes">
+    <recipe name="TW_stoneAxe" count="1" tags="perkMiner69r">
+    	<ingredient name="resourceRockSmall" count="4"/>
+    	<ingredient name="resourceYuccaFibers" count="4"/>
+    	<ingredient name="resourceWood" count="4"/>
+    </recipe>
+
+    <recipe name="TW_stoneShovel" count="1" tags="perkMiner69r">
+    	<ingredient name="resourceRockSmall" count="5"/>
+    	<ingredient name="resourceYuccaFibers" count="3"/>
+    	<ingredient name="resourceWood" count="3"/>
+    </recipe>
+
+    <recipe name="TW_ironPickaxe" count="1" tags="learnable,perkMiner69r">
+    	<ingredient name="resourceForgedIron" count="40"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="4"/>
+    	<ingredient name="resourceDuctTape" count="4"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_steelPickaxe" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+    	<ingredient name="meleeToolAllSteelParts" count="10"/>
+    	<ingredient name="resourceForgedSteel" count="20"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="6"/>
+    	<ingredient name="resourceDuctTape" count="6"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_ironShovel" count="1" tags="learnable,perkMiner69r">
+    	<ingredient name="resourceForgedIron" count="32"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="4"/>
+    	<ingredient name="resourceDuctTape" count="4"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_steelShovel" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+    	<ingredient name="meleeToolAllSteelParts" count="10"/>
+    	<ingredient name="resourceForgedSteel" count="20"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="6"/>
+    	<ingredient name="resourceDuctTape" count="6"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_ironFireaxe" count="1" tags="learnable,perkMiner69r">
+    	<ingredient name="resourceForgedIron" count="40"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="4"/>
+    	<ingredient name="resourceDuctTape" count="4"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_steelAxe" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+    	<ingredient name="meleeToolAllSteelParts" count="10"/>
+    	<ingredient name="resourceForgedSteel" count="20"/>
+    	<ingredient name="resourceWood" count="20"/>
+    	<ingredient name="resourceLeather" count="6"/>
+    	<ingredient name="resourceDuctTape" count="6"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_Auger" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+    	<ingredient name="meleeToolAxeT3ChainsawParts" count="5"/>
+    	<ingredient name="vehicleBicycleHandlebars" count="1"/>
+    	<ingredient name="smallEngine" count="1"/>
+    	<ingredient name="resourceForgedSteel" count="10"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="meleeToolChainsawParts,resourceForgedSteel"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_Chainsaw" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+    	<ingredient name="meleeToolAxeT3ChainsawParts" count="10"/>
+    	<ingredient name="vehicleBicycleHandlebars" count="1"/>
+    	<ingredient name="smallEngine" count="1"/>
+    	<ingredient name="resourceForgedSteel" count="20"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="meleeToolChainsawParts,resourceForgedSteel"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_Wrench" count="1" tags="learnable,perkSalvageOperations">
+    	<ingredient name="resourceForgedIron" count="24"/>
+    	<ingredient name="resourceMechanicalParts" count="8"/>
+    	<ingredient name="resourceDuctTape" count="4"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_ClawHammer" count="1" tags="learnable,perkMiner69r">
+    	<ingredient name="resourceForgedIron" count="24"/>
+    	<ingredient name="resourceWood" count="12"/>
+    	<ingredient name="resourceLeather" count="4"/>
+    	<ingredient name="resourceDuctTape" count="4"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,1.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+  </append>
+</tw_toolsrecipes>

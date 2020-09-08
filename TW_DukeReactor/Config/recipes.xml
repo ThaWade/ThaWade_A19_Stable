@@ -1,0 +1,20 @@
+<tw_dukereactorRecipes>
+  <append xpath="/recipes">
+    <recipe name="TW_dukeReactor" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+  	<ingredient name="resourceForgedIron" count="20"/>
+  	<ingredient name="resourceMechanicalParts" count="10"/>
+  	<ingredient name="resourceElectricParts" count="25"/>
+  	<ingredient name="resourceScrapPolymers" count="6"/>
+  	<effect_group>
+  		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="resourceForgedIron,resourceMechanicalParts,resourceElectricParts"/>
+  	</effect_group>
+  </recipe>
+
+  <recipe name="TW_dukeCapacitor" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkAdvancedEngineering">
+  	<ingredient name="carBattery" count="2"/>
+    <effect_group>
+  		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="carBattery"/>
+  	</effect_group>
+  </recipe>
+  </append>
+</tw_dukereactorRecipes>

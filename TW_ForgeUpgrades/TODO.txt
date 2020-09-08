@@ -1,0 +1,1 @@
+Add SMXUi supported version.

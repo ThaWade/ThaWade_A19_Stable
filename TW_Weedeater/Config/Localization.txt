@@ -1,0 +1,4 @@
+Key,File,Type,English,Context
+
+TW_weedEater,items,Tool,TW Weed Eater
+TW_weedEaterDesc,items,Tool,"ThaWade's Weed Eater chews through grass."

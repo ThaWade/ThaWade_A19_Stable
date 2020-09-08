@@ -1,0 +1,17 @@
+Key,File,Type,English,Context
+TW_dukeReactor,blocks,Electricity,"TW Duke Reactor"
+TW_dukeReactorDesc,blocks,Electricity,"With great power comes... a lot of traps?"
+TW_dukeReactorTip_title,Journal Tip,"Duke Reactor",,"Reactor"
+
+TW_dukeCapacitorBank,blocks,Electricity,"TW Duke Capacitor Bank"
+TW_dukeCapacitorBankDesc,blocks,Electricity,"Much better battery bank."
+TW_dukeCapacitorBankTip_title,Journal Tip,"Duke Capacitor Bank","Capacitor"
+
+TW_dukeReactorSchematic,blocks,Electricity,"TW Duke Reactor Schemeatic"
+TW_dukeReactorSchematicDesc,blocks,Electricity,"Learn to craft duke reactors by reading this schematic."
+
+TW_dukeCapacitorBankSchematic,blocks,Electricity,"TW Duke Capacitor Bank Schematic"
+TW_dukeCapacitorBankSchematicDesc,blocks,Electricity,"Learn to craft the duke capacitor bank by reading this schematic."
+
+TW_dukeCapacitor,items,Item,"TW Duke Capacitor"
+TW_dukeCapacitorDesc,items,Item,"Duke Capacitors are used in the Duke Reactor."

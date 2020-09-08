@@ -1,0 +1,17 @@
+<tw_forgeUpgradesWindows>
+  <!-- FORGE TOOLS WINDOW-->
+  <set xpath="/windows/window[@name='windowToolsForge']/rect/grid[@name='inventory' and @rows]/@rows">2</set><!-- Adds 3 more tool slots -->
+  <append xpath="/windows/window[@name='windowToolsForge']/rect/grid[@name='inventory' and @required_tools]/@required_tools">,TW_doubleBellows,TW_advancedAnvil,</append><!-- Tells the slots which items to accept. -->
+  <set xpath="/windows/window[@name='windowToolsForge']/@height">196</set><!-- Sets the height for the UI to self adjust. -->
+
+<!-- FORGE INPUT WINDOW, seem to be limited to 3 slots. If 4, the fourth only holds the item, no smelting occurs. -->
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content']/grid/@rows">3</set><!--Add another input slot-->
+  <set xpath="/windows/window[@name='windowForgeInput']/@height">279</set><!-- Sets the height for the UI to self adjust. -->
+
+  <!-- Forge contents, Iron, Brass, Lead, etc. with amount currently in forge. -->
+  <set xpath="/windows/window[@name='windowForgeInput']/rect[@name='content2' and @height]/@height">223</set><!-- Adjustment to make the UI look natural -->
+  <set xpath="/windows/window[@name='windowForgeInput']/sprite[@name='backgroundMain' and @height]/@height">228</set><!-- Adjustment to make the UI look natural -->
+
+  <!-- FUEL WINDOW --><!-- Didn't need to mess with this, adding rows and adjusting height of tool slots automatically adjusts the rest of the ui. -->
+  <!--<set xpath="/windows/window[@name='windowFuel']/rect[@name='content' and @pos]/@pos">-30</set>-->
+</tw_forgeUpgradesWindows>

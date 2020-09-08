@@ -1,0 +1,10 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate
+
+TW_doubleBellows,items,Item,,,TW Double Bellows,,
+TW_doubleBellowsDesc,items,Item,,,A tool that can be installed in a forge. It increases air flow and so the smelting speed of the forge.,,
+
+TW_advancedAnvil,items,Item,,,TW Advanced Anvil,,
+TW_advancedAnvilDesc,items,Item,,,A tool that can be installed in a forge. It increases the crafting speed of that forge.,,
+
+TW_doubleBellowsSchematic,items,Item,,,TW Double Bellows Schematic,,
+TW_advancedAnvilSchematic,items,Item,,,TW Advanced Anvil Schematic,,

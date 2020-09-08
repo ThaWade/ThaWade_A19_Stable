@@ -1,0 +1,6 @@
+<superNoobFrameProgression>
+  <!-- Unlock at perkMiner69r level 1 for inventory crafting -->
+  <append xpath="progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @tags]/@tags">,superNoobFrameBlockVariantHelper</append>
+  <!-- Unlock at perkAdvancedEngineering level 1 for forge crafting -->
+  <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[2]/@tags">,superNoobFrameBlockVariantHelper</append>
+</superNoobFrameProgression>

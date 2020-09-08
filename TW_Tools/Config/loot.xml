@@ -1,0 +1,58 @@
+<TW_ToolsLoot>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT1']">
+		<item name="TW_WrenchSchematic"/>
+		<item name="TW_ironSetSchematic"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+		<item name="TW_steelSetSchematic"/>
+		<item name="TW_AugerSchematic"/>
+		<item name="TW_ChainsawSchematic"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT1']">
+		<item name="TW_ironPickaxe"/>
+		<item name="TW_ironFireaxe"/>
+		<item name="TW_ironShovel"/>
+		<item name="TW_ClawHammer"/>
+		<item name="TW_Wrench"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT1Wrench']">
+		<item name="TW_Wrench" loot_prob_template="ProbT2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT1ClawHammer']">
+		<item name="TW_ClawHammer" loot_prob_template="ProbT2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT2']">
+    <item name="TW_steelShovel" loot_prob_template="ProbT3"/>
+    <item name="TW_steelPickaxe" loot_prob_template="ProbT3"/>
+    <item name="TW_steelAxe" loot_prob_template="ProbT3"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT3']">
+    <item name="TW_Auger"/>
+    <item name="TW_Chainsaw"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT1']">
+		<item name="TW_ironPickaxe"/>
+		<item name="TW_ironFireaxe"/>
+		<item name="TW_ironShovel"/>
+		<item name="TW_ClawHammer"/>
+		<item name="TW_Wrench"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT2']">
+    <item name="TW_steelShovel"/>
+    <item name="TW_steelPickaxe"/>
+    <item name="TW_steelAxe"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestToolsT3']">
+    <item name="TW_Auger"/>
+    <item name="TW_Chainsaw"/>
+	</append>
+</TW_ToolsLoot>

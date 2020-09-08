@@ -1,0 +1,21 @@
+<tw_forgeUpgradeRecipes>
+  <append xpath="/recipes">
+
+    <recipe name="TW_doubleBellows" count="1" tags="learnable">
+    	<ingredient name="toolBellows" count="2"/>
+    </recipe>
+
+    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable">
+    	<ingredient name="unit_iron" count="2000"/>
+    	<ingredient name="unit_clay" count="200"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_clay,unit_iron"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable">
+    	<ingredient name="toolAnvil" count="2"/>
+    </recipe>
+
+  </append>
+</tw_forgeUpgradeRecipes>

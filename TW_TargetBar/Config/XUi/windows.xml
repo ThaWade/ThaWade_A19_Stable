@@ -1,0 +1,4 @@
+<tw_targetbarWindows>
+<!-- Make the Target window (health bar) always visible -->
+  <set xpath="/windows/window[@name='windowTargetBar' and @visibility]/@visibility">always</set>
+</tw_targetbarWindows>

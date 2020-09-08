@@ -1,0 +1,30 @@
+<tw_toolsProgression>
+  <!--Unlock vanilla steel tools with perkMiner69r-->
+  <insertAfter xpath="progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='RecipeTagUnlocked']">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="meleeToolAxeT2SteelAxe,meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel"/>
+  </insertAfter>
+
+  <!-- Create new perk under Mother Lode to unlock TW Tools and higher harvest rates for them -->
+  <insertAfter xpath="progression/perks/perk[@name='perkMotherLode']">
+    <perk name="perkTWTools" max_level="3" parent="skillStrengthConstruction" name_key="perkTWToolsName" desc_key="perkTWToolsDesc" icon="ui_game_symbol_mining">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="4" desc_key="reqStrengthLevel04"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+
+		<effect_group>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,3" value="1" tags="TW_ironFireaxe,TW_ironPickaxe,TW_ironShovel"/>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,3" value="1" tags="TW_steelAxe,TW_steelPickaxe,TW_steelShovel"/>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,3" value="1" tags="TW_Auger,TW_Chainsaw"/>
+
+      <effect_description level="1" desc_key="perkTWToolsRank1Desc" long_desc_key="perkTWToolsRank1LongDesc"/>
+      <effect_description level="2" desc_key="perkTWToolsRank2Desc" long_desc_key="perkTWToolsRank2LongDesc"/>
+      <effect_description level="3" desc_key="perkTWToolsRank3Desc" long_desc_key="perkTWToolsRank3LongDesc"/>
+    </effect_group>
+    <effect_group><!-- Increase the harvest amount of only TW Tools, stacks with perkMotherLode -->
+      <requirement name="ItemHasTags" tags="twHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,3" value=".1,1.5" tags="oreWoodHarvest"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" level="1,3" value="-.1,-.2" tags="Harvesting"/>
+    </effect_group>
+	</perk>
+  </insertAfter>
+</tw_toolsProgression>

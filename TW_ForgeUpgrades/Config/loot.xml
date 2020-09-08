@@ -1,0 +1,12 @@
+<tw_forgeUpgradeLoot>
+  <append xpath="/lootcontainers/lootgroup[@name='schematicsToolsT2']">
+    <item name="TW_doubleBellowsSchematic"/>
+    <item name="TW_advancedAnvilSchematic"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
+    <item name="TW_doubleBellows" loot_prob_template="ProbT3"/>
+    <item name="TW_advancedAnvil" loot_prob_template="ProbT3"/>
+  </append>
+
+</tw_forgeUpgradeLoot>

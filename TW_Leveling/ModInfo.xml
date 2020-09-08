@@ -1,0 +1,8 @@
+<xml>
+    <ModInfo>
+        <Name value="ThaWade's Leveling" />
+        <Description value="Caps exp needed per level at level 2. Gives 2 perk points per level. Lowers max level to 150" />
+        <Author value="ThaWade" />
+        <Version value="A19" />
+    </ModInfo>
+</xml>

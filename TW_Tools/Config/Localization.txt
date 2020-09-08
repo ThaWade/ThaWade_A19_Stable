@@ -1,0 +1,59 @@
+Key,File,Type,English,Context
+
+TW_stoneAxe,items,Tool,TW Stone Axe
+TW_stoneAxeDesc,items,Tool,"ThaWade's stoneaxe has:\n\n+25% Block Damage\n+25% Durablity.\n+25% Usage per minute"
+
+TW_stoneShovel,items,Tool,TW Stone Shovel
+TW_stoneShovelDesc,items,Tool,"ThaWade's stone shovel has:\n\n+25% Block Damage\n+25% Durablity.\n+25% Usage per minute"
+
+TW_ironPickaxe,items,Tool,TW Iron Pickaxe
+TW_ironPickaxeDesc,items,Tool,"ThaWade's iron pickaxe has:\n\n+50% Block Damage\n+50% Durablity\n+50% Usage per minute\n-25% Stamina usage\n\nUnlocks with Miner 69'er Level 2."
+
+TW_ironFireaxe,items,Tool,TW Iron Fireaxe
+TW_ironFireaxeDesc,items,Tool,"ThaWade's iron fireaxe has:\n\n+50% Block Damage\n+50% Durablity\n+50% Usage per minute\n-25% Stamina usage\n\nUnlocks with Miner 69'er Level 2."
+
+TW_ironShovel,items,Tool,TW Iron Shovel
+TW_ironShovelDesc,items,Tool,"ThaWade's iron shovel has:\n\n+50% Block Damage\n+50% Durablity\n+50% Usage per minute\n-25% Stamina usage\n\nUnlocks with Miner 69'er Level 2."
+
+TW_steelPickaxe,items,Tool,TW Steel Pickaxe
+TW_steelPickaxeDesc,items,Tool,"ThaWade's steel pickaxe has:\n\n+100% Block Damage\n+100% Durablity\n+50% Usage per minute\n-25% Stamina usage\n\nUnlocks with Miner 69'er Level 5."
+
+TW_steelAxe,items,Tool,TW Steel Axe
+TW_steelAxeDesc,items,Tool,"ThaWade's steel axe has:\n\n+100% Block Damage\n+100% Durablity\n+50% Usage per minute\n-25% Stamina usage\n\nUnlocks with Miner 69'er Level 5."
+
+TW_steelShovel,items,Tool,TW Steel Shovel
+TW_steelShovelDesc,items,Tool,"ThaWade's steel shovel has:\n\n+100% Block Damage \n+100% Durablity\n+100% Usage per minute\n\nUnlocks with Miner 69'er Level 5."
+
+TW_Chainsaw,items,Tool,TW Chainsaw
+TW_ChainsawDesc,items,Tool,"ThaWade's chainsaw has:\n\n+100% Block Damage \n+100% Durablity\n+100% Usage per minute\n+100% Fuel Capacity"
+
+TW_Auger,items,Tool,TW Auger
+TW_AugerDesc,items,Tool,"ThaWade's auger has:\n\n+100% Block Damage \n+100% Durablity\n+100% Usage per minute\n+100% Fuel Capacity"
+
+TW_Wrench,items,Tool,TW Wrench
+TW_WrenchDesc,items,Tool,"ThaWade's wrench is the BEST tool for disassembling mechanical devices like cars, air conditioners and more.\n\n+50% Block Damage\n+50% Durablity\n+50% Usage per minute\n-25% Stamina usage \n\nRepair with a Repair Kit.\nScrap to Iron."
+
+TW_ClawHammer,items,Tool,TW Claw Hammer
+TW_ClawHammerDesc,items,Tool,"ThaWade's claw hammer is great for repairing and upgrading base walls and not bad as a weapon.\n\n+50% Block Damage\n+50% Durablity\n+50% Usage per minute\n-25% Stamina usage \n\nRepair with a Repair Kit.\nScrap to Iron."
+
+TW_steelSetSchematic,items,Tool,TW Steel Tools Schematic
+
+TW_WrenchSchematic,items,Tool,TW Wrench Schematic
+
+TW_AugerSchematic,items,Tool,TW Auger Schematic
+
+TW_ChainsawSchematic,items,Tool,TW Chainsaw Schematic
+
+TW_ironSetSchematic,items,Tool,TW Iron Tool Schematic
+
+perkTWToolsName, progression, perk, TW Tools
+perkTWToolsDesc, progression, perk, Unlock TW tools.
+
+perkTWToolsRank1Desc, progression, perk, "TW Iron Tools"
+perkTWToolsRank1LongDesc, progression, perk, "Unlocks\nTW Iron Shovel\nTW Iron Pickaxe\nTW Iron Fireaxe\nTW Claw Hammer\nTW Wrench"
+
+perkTWToolsRank2Desc, progression, perk, "TW Steel Tools"
+perkTWToolsRank2LongDesc, progression, perk, "Unlocks\nTW Steel Shovel\nTW Steel Fireaxe\nTW Steel Pickaxe"
+
+perkTWToolsRank3Desc, progression, perk, "TW Power Tools"
+perkTWToolsRank3LongDesc, progression, perk, "Unlocks\nTW Auger\nTW Chainsaw"

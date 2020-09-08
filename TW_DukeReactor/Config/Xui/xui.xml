@@ -1,0 +1,9 @@
+<tw_dukereactorXui>
+  <append xpath="/xui/ruleset">
+    <window_group name="dukeReactor" controller="XUiC_PowerSourceWindowGroup">
+      <window name="windowPowerSourceStats" />
+    	<window name="windowPowerSourceSlots" />
+    	<window name="windowNonPagingHeader" />
+    </window_group>
+  </append>
+</tw_dukereactorXui>

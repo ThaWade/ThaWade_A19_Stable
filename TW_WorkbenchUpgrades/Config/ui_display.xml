@@ -1,0 +1,13 @@
+<tw_wrkBnchUpgrdUiDisplay>
+  <append xpath="/ui_display_info/item_display">
+    <item_display_info display_type="TW_WireCutters" display_group="workstationTools">
+  		<display_entry name="dCraftingTimeWb" title_key="statCraftingTimeWorkbench" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+  	</item_display_info>
+    <item_display_info display_type="TW_Hammer" display_group="workstationTools">
+  		<display_entry name="dCraftingTimeWb" title_key="statCraftingTimeWorkbench" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+  	</item_display_info>
+    <item_display_info display_type="TW_PipeWrench" display_group="workstationTools">
+  		<display_entry name="dCraftingTimeWb" title_key="statCraftingTimeWorkbench" display_type="Percent" display_leading_plus="true" negative_preferred="false"/>
+  	</item_display_info>
+  </append>
+</tw_wrkBnchUpgrdUiDisplay>

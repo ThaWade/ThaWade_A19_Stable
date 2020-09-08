@@ -1,0 +1,5 @@
+<tw_workbenchupgradesxuiconfig>
+  <insertAfter xpath="/xui/ruleset/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']">
+    <window name="windowToolsWorkbench"/>
+  </insertAfter>
+</tw_workbenchupgradesxuiconfig>

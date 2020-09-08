@@ -1,0 +1,57 @@
+<tw_dukereactorItems>
+  <append xpath="/items">
+    <!--
+    <item name="dukeReactorSchematic">
+    	<property name="Extends" value="schematicNoQualityMaster"/>
+    	<property name="CreativeMode" value="Player"/>
+    	<property name="CustomIcon" value="generatorbank"/>
+    	<property name="CustomIconTint" value="00ffe1"/>
+    	<property name="DescriptionKey" value="dukeReactorSchematicDesc"/>
+    	<property name="Unlocks" value="dukeReactor"/>
+    	<effect_group tiered="false">
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dukeReactor" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+    	</effect_group>
+    </item>
+-->
+    <item name="TW_dukeReactorSchematic"><!-- changed from dukeCapacitorBankSchematic-->
+    	<property name="Extends" value="schematicNoQualityMaster"/>
+    	<property name="CreativeMode" value="Player"/>
+    	<property name="CustomIcon" value="batterybank"/>
+    	<property name="CustomIconTint" value="00ffe1"/>
+    	<property name="DescriptionKey" value="TW_dukeReactorSchematicDesc"/><!-- changed from dukeCapacitorBankSchematicDesc -->
+    	<property name="Unlocks" value="TW_dukeReactor"/><!-- Changed from dukeCapacitor -->
+    	<effect_group tiered="false">
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dukeReactor" operation="set" value="1"/>
+    		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+    	</effect_group>
+    </item>
+
+    <item name="TW_dukeCapacitor">
+    	<property name="HoldType" value="45"/>
+    	<property name="Tags" value="perkAdvancedEngineering"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="CustomIcon" value="casinoCoin"/>
+    	<property name="DescriptionKey" value="TW_dukeCapacitorDesc"/>
+    	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+    	<property name="Material" value="MresourceScrapLeadLarge"/>
+    	<property name="Stacknumber" value="1"/>
+    	<property name="Weight" value="160"/>
+    	<property name="EconomicValue" value="500"/>
+    	<property name="Group" value="Resources,Chemicals"/>
+    	<property name="DegradationBreaksAfter" value="false"/>
+    	<property name="ShowQuality" value="true"/>
+    	<property class="Attributes">
+    		<property name="DegradationMax" value="70000000,75000000"/> <!-- needed for electrical calculations -->
+    		<property name="BatteryMaxLoadInVolts" value="70000000, 75000000"/>
+    		<property name="BatteryDischargeTimeInMinutes" value="70000000,75000000"/>
+    	</property>
+    	<effect_group>
+    		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="DegradationMax" operation="base_set" value="70000000,75000000" tier="1,6"/>
+    	</effect_group>
+    </item>
+
+  </append>
+</tw_dukereactorItems>

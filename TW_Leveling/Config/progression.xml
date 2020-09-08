@@ -1,0 +1,8 @@
+<tw_leveling>
+  <remove xpath="/progression/level"/>
+
+  <insertBefore xpath="/progression/attributes">
+    <level max_level="300" exp_to_level="10000" experience_multiplier="1.01" skill_points_per_level="1" clamp_exp_cost_at_level="1">
+    </level>
+  </insertBefore>
+</tw_leveling>

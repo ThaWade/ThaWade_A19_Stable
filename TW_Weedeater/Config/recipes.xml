@@ -1,0 +1,8 @@
+<tw_weedeaterRecipes>
+    <append xpath="/recipes">
+        <recipe name="TW_weedEater" count="1">
+            <ingredient name="resourceForgedIron" count="5"/>
+            <ingredient name="resourceWood" count="3"/>
+        </recipe>
+    </append>
+</tw_weedeaterRecipes>

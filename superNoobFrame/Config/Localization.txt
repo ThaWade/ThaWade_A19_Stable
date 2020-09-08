@@ -1,0 +1,8 @@
+Key,File,Type,English,Context
+superNoobFrameBlockVariantHelper,blocks,Block,Super Noob Frame
+SNFDesc,blocks,Block,Place using the secondary action. Auto-magically upgrades from Rebar to Steel.
+
+superNoobFrameBlock,blocks,Block,Super Noob Frame
+
+superNoobFrameRamp,blocks,Block,Super Noob Frame Ramp
+SNFRampDesc,blocks,Block,"Place using the seconday action.\nAuto-magically upgrades from Rebar to Steel."

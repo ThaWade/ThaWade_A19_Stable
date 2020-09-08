@@ -1,0 +1,20 @@
+<tw_10slotcraftingQueue>
+<!-- Remove 1 row from the recipe list to allow the extra row of crafting.-->
+  <set xpath="/windows/window[@name='windowCraftingList']/panel/grid[@name='recipes' and @rows]/@rows">11</set>
+
+<!-- remove the windowCraftingQueue -->
+  <remove xpath="/windows/window[@name='windowCraftingQueue']"/>
+
+<!-- Insert the windowCraftingQueue in the same place it was in the xml, after windowCraftingList.-->
+  <insertAfter xpath="/windows/window[@name='windowCraftingList']">
+    <window name="windowCraftingQueue" width="397" height="153" panel="Left" cursor_area="true" >
+		<rect depth="0" pos="96,0" width="303" controller="CraftingQueue">
+      <!-- Now we add the extra row and column and adjust the position to fit. -->
+			<grid name="queue" rows="2" cols="5" pos="-83,45" cell_width="75" cell_height="75" repeat_content="true">
+				<recipe_stack name="0"/>
+			</grid>
+		</rect>
+  	</window>
+  </insertAfter>
+
+</tw_10slotcraftingQueue>

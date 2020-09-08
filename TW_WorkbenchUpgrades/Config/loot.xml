@@ -1,0 +1,18 @@
+<tw_wrkBnchUpgrdLoot>
+  <!-- Schematic not yet implemented.
+  <append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+    <item name="TW_WireCutters"/>
+  </append>
+-->
+  <append xpath="/lootcontainers/lootgroup[@name='forgeLoot']">
+    <item name="TW_WireCutters"/>
+    <item name="TW_PipeWrench"/>
+    <item name="TW_Hammer"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
+    <item name="TW_WireCutters"/>
+    <item name="TW_PipeWrench"/>
+    <item name="TW_Hammer"/>
+  </append>
+</tw_wrkBnchUpgrdLoot>
