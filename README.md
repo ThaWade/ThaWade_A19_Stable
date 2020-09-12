@@ -16,7 +16,7 @@ Hosting a multiplayer/singleplayer game? Only the host needs to install the modl
 1. Any modlet/mod that changes the vanilla names of ui elements.
 
 ## List of ThaWade's Modlets  
-[Super Noob Frame](ADD_LINK_TO_MODLET_HERE) -- [Wiki](https://github.com/ThaWade/ThaWade_A19_Stable/wiki/Super-Noob-Frame)  
+[Super Noob Frame](https://github.com/ThaWade/ThaWade_A19_Stable/tree/master/superNoobFrame) -- [Wiki](https://github.com/ThaWade/ThaWade_A19_Stable/wiki/Super-Noob-Frame)  
 [TW 10 Slot Crafting Queue](https://github.com/ThaWade/ThaWade_A19_Stable/tree/master/TW_10SlotCraftingQueue) -- [Wiki](https://github.com/ThaWade/ThaWade_A19_Stable/wiki/ThaWade's-10-Slot-Crafting-Queue)    
 [TW 60 Slot Backpack](https://github.com/ThaWade/ThaWade_A19_Stable/tree/master/TW_60SlotBP) -- [Wiki](https://github.com/ThaWade/ThaWade_A19_Stable/wiki/ThaWade's-60-Slot-Backpack)  
 [TW Duke Reactor](https://github.com/ThaWade/ThaWade_A19_Stable/tree/master/TW_DukeReactor) -- [Wiki](https://github.com/ThaWade/ThaWade_A19_Stable/wiki/ThaWade's-Duke-Reactor)  
