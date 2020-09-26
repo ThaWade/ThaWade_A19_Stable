@@ -1,34 +1,18 @@
-<tw_healthwaterbarsWindows>
-  <remove xpath="/windows/window[@name='windowToolbelt']"/>
-  <insertAfter xpath="/windows/window[@name='onScreenIcons']">
-    <window name="windowToolbelt" width="603" height="78" depth="5" anchor="CenterBottom" pos="-313, 102" backgroundcolor="[black]" controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true" xp_fill_speed="2.5" >
-  	<!--#$-IGS END.-$#-->
-
-  		<rect>
-  			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" on_press="true" />
-  			<grid depth="10" name="inventory" rows="1" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Toolbelt" repeat_content="true">
-  				<item_stack name="0"/>
-  			</grid>
-
-  			<sprite depth="1" pos="0,6" height="8" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
-  			<sprite depth="9" pos="0,6" height="8" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
-  			<sprite depth="4" pos="0,6" height="8" width="600" color="{xpcolor}" globalopacity="false" type="filled" fill="{xp}" />
-
-  			<rect pos="0,-77" width="303" height="18" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
-  				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
-  				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
-          <label depth="7" name="TextContent" pos="0,-1" font_size="14" color="[white]" justify="center"
-            text="{statcurrentwithmax}" height="16"/>
-  				<filledsprite depth="5" pos="1,0" width="301" name="BarContent" color="0,255,54,128" globalopacity="false" type="filled" fill="0"  />
-  			</rect>
-
-  			<rect pos="301,-77" width="302" height="18" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
-  				<sprite depth="1" color="[mediumGrey]" sprite="menu_empty2px" globalopacity="false" type="sliced" />
-  				<sprite depth="9" color="[black]" sprite="menu_empty2px" globalopacity="false" type="sliced" fillcenter="false" />
-          <label depth="7" name="TextContent" pos="0,-1" font_size="14" color="[white]" justify="center" text="{statcurrentwithmax}" height="16"/>
-  				<filledsprite depth="5" pos="1,0" width="301" name="BarContent" color="0,54,255,160" globalopacity="false" type="filled" fill="0"  />
-  			</rect>
-  		</rect>
-  	</window>
+<tw_foodwaterbarsWindows>
+  <!-- Raise the toolbelt window slightly -->
+  <set xpath="/windows/window[@name='windowToolbelt']/@pos">-388,98</set>
+<!-- Food -->
+  <!-- Increase the height of the food bar-->
+  <set xpath="/windows/window[@name='windowToolbelt']/rect/rect[2]/@height">18</set>
+  <!-- Add our current food as text -->
+  <insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/rect[2]/sprite[2]">
+    <label name="TextContent" depth="7" pos="0,0" text="{playerfood}" font_size="16" color="[white]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" controller="PlayerStatsWindow"/>
   </insertAfter>
-</tw_healthwaterbarsWindows>
+<!-- Water -->
+  <!-- Increase the height of the water bar-->
+  <set xpath="/windows/window[@name='windowToolbelt']/rect/rect[3]/@height">18</set>
+  <!-- Add our current water as text -->
+  <insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/rect[3]/sprite[2]">
+    <label name="TextContent" depth="7" pos="0,0" text="{playerwater}" font_size="16" color="[white]" crispness="Never" effect="outline" effect_distance="1,1" justify="center" pivot="topleft" controller="PlayerStatsWindow"/>
+  </insertAfter>
+</tw_foodwaterbarsWindows>

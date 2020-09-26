@@ -1,8 +1,8 @@
 <xml>
-    <ModInfo>
-        <Name value="ThaWade's Health and Water Bars" />
-        <Description value="Increases the size of health and water bars under the toolbelt." />
-        <Author value="ThaWade" />
-        <Version value="A19" />
-    </ModInfo>
+  <ModInfo>
+    <Name value="ThaWade's Food and Water Bars" />
+    <Description value="Increases the size of food and water bars under the toolbelt." />
+    <Author value="ThaWade" />
+    <Version value="A19.1 b8" />
+  </ModInfo>
 </xml>
