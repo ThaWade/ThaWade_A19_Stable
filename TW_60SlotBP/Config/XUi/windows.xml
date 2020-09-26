@@ -1,4 +1,10 @@
-<tw_xxslotbbpWindows>
+<tw_60slotbbpWindows>
+  <set xpath="/windows/window[@name='windowBackpack']/@width">606</set>
+  <set xpath="/windows/window[@name='windowBackpack']/@height">373</set>
+
+  <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite/@width">602</set>
+  <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite/@height">365</set>
+
   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid/@rows">6</set>
   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid/@cols">10</set>
 
@@ -8,6 +14,6 @@
   <remove xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/backpack_item_stack"></remove>
 
 	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']">
-       <tw_60slotbp_item_stack name="0"/>
+    <tw_60slotbp_item_stack name="0"/>
 	</append>
-</tw_xxslotbbpWindows>
+</tw_60slotbbpWindows>
