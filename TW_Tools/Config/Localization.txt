@@ -50,10 +50,13 @@ perkTWToolsName, progression, perk, TW Tools
 perkTWToolsDesc, progression, perk, Unlock TW tools.
 
 perkTWToolsRank1Desc, progression, perk, "TW Iron Tools"
-perkTWToolsRank1LongDesc, progression, perk, "Unlocks\nTW Iron Shovel\nTW Iron Pickaxe\nTW Iron Fireaxe\nTW Claw Hammer\nTW Wrench"
+perkTWToolsRank1LongDesc, progression, perk, "Learn to craft ThaWade's iron tools and gather more resources from them\nUnlocks TW Iron Shovel, TW Iron Pickaxe, TW Iron Fireaxe, TW Claw Hammer."
 
 perkTWToolsRank2Desc, progression, perk, "TW Steel Tools"
-perkTWToolsRank2LongDesc, progression, perk, "Unlocks\nTW Steel Shovel\nTW Steel Fireaxe\nTW Steel Pickaxe"
+perkTWToolsRank2LongDesc, progression, perk, "Learn to craft ThaWade's Steel tools and gather even more resources from them\nUnlocks TW Steel Shovel, TW Steel Fireaxe, TW Steel Pickaxe"
 
 perkTWToolsRank3Desc, progression, perk, "TW Power Tools"
-perkTWToolsRank3LongDesc, progression, perk, "Unlocks\nTW Auger\nTW Chainsaw"
+perkTWToolsRank3LongDesc, progression, perk, "Learn to craft ThaWade's motor tools and gather the max amount of resources from them.\nUnlocks TW Auger and TW Chainsaw."
+
+perkSalvageOperationsRank3Desc,progression,perk Per,Salvager
+perkSalvageOperationsRank3LongDesc,progression,perk Per,"You seem to have a knack for salvaging more useful parts than the average scrapper. Craft quality 4 good salvage tools. Deal 30% more damage, harvest 60% faster and gains 60% more resources with a wrench, ratchet or impact driver.\nUnlocks TW Wrench."

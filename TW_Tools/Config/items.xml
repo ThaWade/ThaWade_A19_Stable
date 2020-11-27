@@ -738,7 +738,7 @@
     	<property name="SoundJammed" value="ItemNeedsRepair"/>
     	<property name="SoundDestroy" value="metaldestroy"/>
     	<property name="EconomicValue" value="350"/>
-    	<property name="UnlockedBy" value="TW_WrenchSchematic"/>
+    	<property name="UnlockedBy" value="TW_WrenchSchematic,perkSalvageOperations"/>
     	<property name="ShowQuality" value="true"/>
     	<property class="Action0">
     		<property name="Class" value="DynamicMelee"/>

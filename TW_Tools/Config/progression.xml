@@ -1,8 +1,11 @@
 <tw_toolsProgression>
   <!--Unlock vanilla steel tools with perkMiner69r-->
   <insertAfter xpath="progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='RecipeTagUnlocked']">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="meleeToolAxeT2SteelAxe,meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel"/>
+  </insertAfter>
 
-  <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="meleeToolAxeT2SteelAxe,meleeToolPickT2SteelPickaxe,meleeToolShovelT2SteelShovel"/>
+  <insertAfter xpath="progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@tags='meleeToolSalvageT1Wrench']">
+    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="TW_Wrench"/>
   </insertAfter>
 
   <!-- Create new perk under Mother Lode to unlock TW Tools and higher harvest rates for them -->
