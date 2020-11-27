@@ -114,14 +114,5 @@
     	</effect_group>
     </recipe>
 
-    <!-- Moved to QoL modlet. Not yet released.
-    <recipe name="meleeToolAllSteelParts" count="5" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering,learnable">
-    	<ingredient name="resourceForgedSteel" count="25"/>
-    	<ingredient name="resourceOil" count="5"/>
-    	<ingredient name="resourceMechanicalParts" count="10"/>
-      <effect_group>
-        <passive_effect name="CraftingIngredientCount" level="4,5" operation="base_add" value="-1" tags="resourceForgedSteel,resourceOil,resourceMechanicalParts"/>
-      </effect_group>
-    </recipe> -->
   </append>
 </tw_toolsrecipes>
