@@ -1,11 +1,11 @@
 <tw_forgeUpgradeRecipes>
   <append xpath="/recipes">
 
-    <recipe name="TW_doubleBellows" count="1" tags="learnable">
+    <recipe name="TW_doubleBellows" count="1" tags="learnable,perkAdvancedEngineering,">
     	<ingredient name="toolBellows" count="2"/>
     </recipe>
 
-    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable">
+    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering,">
     	<ingredient name="unit_iron" count="2000"/>
     	<ingredient name="unit_clay" count="200"/>
     	<effect_group>
@@ -13,7 +13,7 @@
     	</effect_group>
     </recipe>
 
-    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable">
+    <recipe name="TW_advancedAnvil" count="1" material_based="true" craft_area="forge" tags="learnable,perkAdvancedEngineering,">
     	<ingredient name="toolAnvil" count="2"/>
     </recipe>
 

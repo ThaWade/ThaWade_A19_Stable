@@ -1,0 +1,6 @@
+<tw_forgeUpgradeProgression>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[4]/@tags">,toolAnvil</append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[6]/@tags">,toolBellows,TW_advancedAnvil</append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[8]/@tags">,TW_doubleBellows</append>
+
+</tw_forgeUpgradeProgression>

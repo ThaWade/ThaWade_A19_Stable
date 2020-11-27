@@ -1,7 +1,9 @@
 <tw_forgeUpgradeItems>
+  <append xpath="/items/item[@name='toolBellows']/property[@name='UnlockedBy']/@value">,perkAdvancedEngineering</append>
+  <append xpath="/items/item[@name='toolAnvil']/property[@name='UnlockedBy']/@value">,perkAdvancedEngineering</append>
   <append xpath="/items">
     <item name="TW_doubleBellows">
-    	<property name="UnlockedBy" value="TW_doubleBellowsSchematic"/>
+    	<property name="UnlockedBy" value="TW_doubleBellowsSchematic,perkAdvancedEngineering"/>
     	<property name="HoldType" value="45"/>
       <property name="CustomIcon" value="toolBellows"/>
       <property name="CustomIconTint" value="2B1C1C"/>
@@ -21,7 +23,7 @@
     </item>
 
     <item name="TW_advancedAnvil">
-    	<property name="UnlockedBy" value="TW_advancedAnvilSchematic"/>
+    	<property name="UnlockedBy" value="TW_advancedAnvilSchematic,perkAdvancedEngineering"/>
     	<property name="HoldType" value="45"/>
     	<property name="CustomIcon" value="toolAnvil"/>
       <property name="CustomIconTint" value="2B1C1C"/>
