@@ -1,0 +1,9 @@
+<tw_wrkBnchUpgrdProgressionConfig>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[2]/@tags">,TW_WireCutters</append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[4]/@tags">,TW_Hammer</append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[6]/@tags">,TW_PipeWrench</append>
+
+  <!-- <append xpath="progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[9]">
+    ,TW_WireCutters,TW_Hammer,TW_PipeWrench
+  </append> -->
+</tw_wrkBnchUpgrdProgressionConfig>

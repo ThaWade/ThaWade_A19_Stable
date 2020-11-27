@@ -1,0 +1,28 @@
+<tw_wrkBnchUpgrdRecipes>
+  <append xpath="/recipes">
+    <recipe name="TW_Hammer" count="1" tags="learnable,perkMiner69r">
+    	<ingredient name="resourceForgedIron" count="12"/>
+    	<ingredient name="resourceWood" count="6"/>
+    	<ingredient name="resourceLeather" count="2"/>
+    	<ingredient name="resourceDuctTape" count="2"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+    <recipe name="TW_WireCutters" count="1" craft_area="workbench" tags="workbenchCrafting">
+    	<ingredient name="resourceForgedSteel" count="9"/>
+    	<ingredient name="resourceMechanicalParts" count="3"/>
+    </recipe>
+
+    <recipe name="TW_PipeWrench" count="1" tags="learnable,perkSalvageOperations">
+    	<ingredient name="resourceForgedIron" count="12"/>
+    	<ingredient name="resourceMechanicalParts" count="4"/>
+    	<ingredient name="resourceDuctTape" count="2"/>
+    	<effect_group>
+    		<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceMechanicalParts,resourceDuctTape"/>
+    	</effect_group>
+    </recipe>
+
+  </append>
+</tw_wrkBnchUpgrdRecipes>
