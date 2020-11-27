@@ -1,0 +1,140 @@
+<tw_armorItems>
+  <append xpath="/items">
+    <item name="TW_apparelTheRocksSunglasses">
+    	<property name="Extends" value="apparelShades"/>
+    	<property name="DisplayType" value="TW_apparelTheRocksSunglasses"/>
+    	<property name="CustomIcon" value="apparelShades"/>
+    	<property name="CustomIconTint" value="30,30,30"/>
+    	<property name="Tags" value="head,clothing,noMods"/>
+    	<property class="UMA">
+    		<property name="Overlay0Tint" value="30,30,30"/>
+    	</property>
+    	<effect_group tiered="false">
+    		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="5"/>
+        <display_value name="dAttributeLevel" tags="attStrength" value="5"/>
+    	</effect_group>
+    </item>
+
+    <item name="TW_apparelAviatorGoggles">
+    	<property name="Extends" value="apparelShades"/>
+    	<property name="Material" value="Mleather"/>
+    	<property name="DisplayType" value="clothingShades"/>
+    	<property name="CustomIcon" value="apparelAviatorGoggles"/>
+      <property name="CustomIconTint" value="30,30,30"/>
+    	<property class="UMA">
+    		<property name="Mesh" value="aviator_goggles"/>
+    		<property name="Overlay0" value="aviator_goggles"/>
+    	</property>
+    	<effect_group tiered="false">
+    		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="AttributeLevel" tags="attPerception" operation="base_add" value="5"/>
+    	</effect_group>
+    </item>
+
+    <item name="TW_apparelIndianaJonesHat">
+    	<property name="Tags" value="head,clothing,noMods"/>
+    	<property name="DisplayType" value="TW_apparelIndianaJonesHat"/>
+    	<property name="CustomIcon" value="apparelCowboyHat"/>
+      <property name="CustomIconTint" value="84,69,50"/>
+    	<property name="UnlockedBy" value="perkNeedleAndThreadDesertWear"/>
+    	<property name="Stacknumber" value="1"/>
+    	<property name="Waterproof" value=".15"/>
+    	<property name="Encumbrance" value=".01"/>
+    	<property name="Material" value="Mleather"/>
+    	<property name="DegradationBreaksAfter" value="false"/>
+    	<property name="Weight" value="10"/> <!-- weight because loot only -->
+    	<property name="FuelValue" value="16"/>
+    	<property name="EconomicValue" value="220"/>
+    	<property name="HoldType" value="45"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="EquipSlot" value="Head"/>
+    	<property name="DescriptionKey" value="TW_apparelIndianJonesHatDesc"/>
+    	<property name="Group" value="Clothing"/>
+    	<property class="UMA">
+    		<property name="Mesh" value="gear_cowboyhat"/>
+    		<property name="Overlay0" value="gear_cowboyhat"/>
+        <property name="Overlay0Tint" value="84,69,50"/>
+    		<property name="Layer" value="2"/>
+    		<property name="UISlot" value="Headgear"/>
+    		<property name="Mask0" value="Head" param1="outer"/>
+    		<property name="ShowAltHair" value="true"/>
+    	</property>
+    	<effect_group tiered="false">
+        <passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="LootGamestage" operation="base_add" value="5,50"/>
+    		<passive_effect name="TreasureBlocksPerReduction" operation="base_add" value="-2"/>
+    		<display_value name="dTreasureBlocksPerReduction" value="-2"/>
+    	</effect_group>
+    </item>
+
+    <item name="TW_apparelFidelsCigar">
+    	<property name="Tags" value="head,clothing,noMods"/>
+    	<property name="DisplayType" value="clothingCigar"/>
+    	<property name="CustomIcon" value="apparelCigar"/>
+      <property name="CustomIconTint" value="30,30,30"/>
+    	<property name="UnlockedBy" value="perkUrbanCombatCigar"/>
+    	<property name="Material" value="Mplants"/>
+    	<property name="Stacknumber" value="1"/>
+    	<property name="DegradationBreaksAfter" value="false"/>
+    	<property name="FuelValue" value="3"/>
+    	<property name="EconomicValue" value="500"/>
+    	<property name="HoldType" value="45"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="Group" value="Clothing"/>
+    	<property name="EquipSlot" value="Face"/>
+    	<property class="UMA">
+    		<property name="Mesh" value="gear_cigar"/>
+    		<property name="Overlay0" value="gear_cigar"/>
+    		<property name="Layer" value="1"/>
+    		<property name="UISlot" value="Face"/>
+    	</property>
+    	<effect_group tiered="false">
+    		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="5"/>
+    		<passive_effect name="BarteringBuying" operation="base_add" value="-.5"/>
+    		<passive_effect name="BarteringSelling" operation="base_add" value="-.5"/>
+    	</effect_group>
+    </item>
+
+    <item name="TW_apparelStealthyBandana"> <!-- item name directly referenced in the code -->
+    	<property name="Tags" value="head,clothing,canHaveCosmetic,noMods"/>
+    	<property name="DisplayType" value="TW_apparelStealthyBandana"/>
+    	<property name="CustomIcon" value="apparelBandana"/>
+      <property name="CustomIconTint" value="30,30,30"/>
+    	<property name="Stacknumber" value="1"/>
+    	<property name="Material" value="Mcloth"/>
+    	<property name="Weight" value="15"/>
+    	<property name="FuelValue" value="4"/>
+    	<property name="EconomicValue" value="10"/>
+    	<property name="DegradationBreaksAfter" value="false"/>
+    	<property name="Encumbrance" value="0"/>
+    	<property name="HoldType" value="45"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="DescriptionKey" value="apparelClothGroupDesc"/>
+    	<property name="Group" value="Clothing"/>
+    	<property name="EquipSlot" value="Face"/>
+    	<property class="UMA">
+    		<property name="Mesh" value="gear_bandana"/>
+    		<property name="Overlay0" value="gear_bandana"/>
+        <property name="Overlay0Tint" value="84,69,50"/>
+    		<property name="Layer" value="1"/>
+    		<property name="UISlot" value="Face"/>
+    		<property name="Mask0" value="Face" param1="base"/>
+    	</property>
+    	<effect_group tiered="false">
+    		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+    		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+    		<passive_effect name="HyperthermalResist" operation="base_add" value="1.5,2.5"/>
+        <passive_effect name="AttributeLevel" tags="attAgility" operation="base_add" value="1,10.9"/>
+        <passive_effect name="PerkLevel" tags="perkHiddenStrike" operation="base_add" value="1,5.9"/>
+    	</effect_group>
+    </item>
+  </append>
+  <!-- Sets the run speed of college jacket to 100% was for testing of speed increase, can be removed or uncommented to be used.
+  <set xpath="/items/item[@name='apparelCoatJacketLetterZU']/effect_group/passive_effect[@name='RunSpeed']/@value">1</set>
+  <set xpath="/items/item[@name='apparelCoatJacketLetterZU']/effect_group/display_value[@name='dRunSpeed']/@value">1</set> -->
+</tw_armorItems>

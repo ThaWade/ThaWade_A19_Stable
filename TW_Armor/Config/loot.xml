@@ -1,0 +1,24 @@
+<tw_armorLoot>
+  <!-- Hats -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupApparelHats']">
+    <item name="TW_apparelIndianaJonesHat" mods="dye" mod_chance="0"/>
+    <item name="TW_modArmorIndianaJonesHat" prob="0.2"/>
+  </append>
+  <!-- Face coverings, bandana, sunglasses, etc -->
+  <append xpath="/lootcontainers/lootgroup[@name='groupApparelFaceCover']">
+    <item name="TW_apparelTheRocksSunglasses" prob=".7"/>
+  </append>
+  <!-- Cigar. Not grouped with other apparel, why? -->
+  <append xpath="/lootcontainers/lootgroup[@name='brewerySafeFiller']">
+    <item name="TW_apparelFidelsCigar" prob="0.9"/>
+  </append>
+  <append xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']">
+    <item name="TW_apparelFidelsCigar" prob="0.9"/>
+  </append>
+  <append xpath="/lootcontainers/lootcontainer[@id='24']">
+    <item name="TW_apparelFidelsCigar" prob=".3"/>
+  </append>
+  <append xpath="/lootcontainers/lootcontainer[@id='42']">
+    <item name="TW_apparelFidelsCigar" prob=".6"/>
+  </append>
+</tw_armorLoot>

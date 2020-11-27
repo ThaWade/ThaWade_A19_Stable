@@ -1,0 +1,18 @@
+Key,File,Type,English,Context
+
+TW_apparelTheRocksSunglasses,items,Clothes,"The Rock's Sunglasses"
+TW_apparelTheRocksSunglassesDesc,items,Clothes,"Look as cool as Dwayne Johnson and gain a strength bonus"
+
+TW_apparelAviatorGoggles,items,Clothes,Lucky Goggles
+TW_apparelAviatorGogglesDesc,items,Clothes,Find better loot with these.
+
+TW_apparelIndianaJonesHat,items,Clothes,"Indiana Jones' Hat"
+TW_apparelIndianaJonesHatDesc,items,Clothes,Want to look as cool as Indiana Jones and find all the treasures? Then wear his hat!
+
+TW_modArmorIndianaJonesHat,item_modifiers,mod,Indiana Jones' Hat Mod,
+TW_modArmorIndianaJonesHatDesc,item_modifiers,mod,"This Indiana Jones' hat modification makes any helmet look like an Indiana Jones' hat, and offers insulation against the elements."
+
+TW_apparelFidelsCigar,items,Clothes,"Fidel's Cigar"
+TW_apparelFidelsCigarDesc,items,Clothes,Gain the strength only a communist leader can yield but beware of the consequences!
+
+TW_apparelStealthyBandana,items,Clothes,Stealthy Bandana

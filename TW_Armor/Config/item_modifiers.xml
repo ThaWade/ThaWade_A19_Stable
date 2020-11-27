@@ -1,0 +1,26 @@
+<tw_armorItem_Modifiers>
+  <append xpath="/item_modifiers">
+    <item_modifier name="TW_modArmorIndianaJonesHat" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="CustomIcon" value="apparelCowboyHat"/>
+    <property name="CustomIconTint" value="84,69,50"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="TW_modArmorIndianaJonesHat"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_cowboyhat"/>
+			<property name="UMA.Overlay0" value="gear_cowboyhat"/>
+      <property name="Overlay0Tint" value="84,69,50"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="HypothermalResist" operation="base_add" value="2.8,5.2"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="10.5,14.3"/>
+      <passive_effect name="LootGamestage" operation="base_add" value="5,50"/>
+      <passive_effect name="TreasureBlocksPerReduction" operation="base_add" value="-2"/>
+      <display_value name="dTreasureBlocksPerReduction" value="-2"/>
+		</effect_group>
+	</item_modifier>
+  </append>
+</tw_armorItem_Modifiers>

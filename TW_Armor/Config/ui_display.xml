@@ -1,0 +1,31 @@
+<tw_armorUI_Display>
+  <append xpath="/ui_display_info/item_display">
+    <item_display_info display_type="TW_apparelTheRocksSunglasses" display_group="groupAttire" >
+			<display_entry name="AttributeLevel" tags="attStrength" title_key="statShowStrength" display_leading_plus="true"/>
+		</item_display_info>
+
+    <item_display_info display_type="TW_apparelIndianaJonesHat" display_group="groupAttire">
+			<display_entry name="LootGamestage" title_key="statLootGamestage" display_leading_plus="true"/>
+			<display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true"/>
+		</item_display_info>
+
+    <item_display_info display_type="TW_modArmorIndianaJonesHat" display_group="groupAttire">
+			<display_entry name="LootGamestage" title_key="statLootGamestage" display_leading_plus="true"/>
+			<display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true"/>
+      <display_entry name="HypothermalResist" title_key="statHypothermalResist"/>
+			<display_entry name="HyperthermalResist" title_key="statHyperthermalResist"/>
+		</item_display_info>
+
+    <item_display_info display_type="TW_apparelStealthyBandana" display_group="groupAttire">
+      <display_entry name="HypothermalResist" title_key="statHypothermalResist"/>
+      <display_entry name="HyperthermalResist" title_key="statHyperthermalResist"/>
+      <display_entry name="PerkLevel" tags="perkHiddenStrike" title_key="Hidden Strike" text_key="xuiSkillLevel" display_leading_plus="true"/>
+      <display_entry name="AttributeLevel" tags="attAgility" title_key="statShowAgility" display_leading_plus="true"/>
+    </item_display_info>
+
+  </append>
+<!-- Let's see what kind of loot bonus we're getting from our stuffs -->
+  <insertAfter xpath="/ui_display_info/character_stat_display/display_entry[@name='CarryCapacity']">
+    <display_entry name="LootGamestage" title_key="statLootGamestage"/>
+  </insertAfter>
+</tw_armorUI_Display>
