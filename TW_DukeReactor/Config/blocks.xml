@@ -57,6 +57,7 @@
     	<property name="ImposterDontBlock" value="true"/>
     	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
     	<property name="DescriptionKey" value="TW_dukeReactorDesc"/>
+      <property name="PickupJournalEntry" value="TW_dukeReactorTip"/>
     	<property name="UnlockedBy" value="perkAdvancedEngineering,TW_dukeReactorSchematic"/>
     	<property name="MaxPower" value="65535"/>
     	<property name="InputPerTick" value="1000"/>
