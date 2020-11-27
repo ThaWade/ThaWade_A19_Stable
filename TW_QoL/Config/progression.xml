@@ -1,0 +1,10 @@
+<tw_qolProgression>
+  <!-- unlock steel tool parts crafting with perkAdvancedEngineering level 5 -->
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[9]/@tags">,meleeToolAllSteelParts
+  </append>
+  <!-- Unlock canned food items with perkMasterChef -->
+  <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[4]/@tags">,foodCanStock,foodCanBeef
+  </append>
+  <append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[6]/@tags">,drinkCanMegaCrush
+  </append>
+</tw_qolProgression>

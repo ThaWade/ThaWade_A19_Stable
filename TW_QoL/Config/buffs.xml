@@ -1,0 +1,16 @@
+<testBuffs>
+  <append xpath="/buffs">
+    <!-- Bedroll will slowly recover health and food. -->
+    <buff name="buffBedrollHeal" hidden="true" name_key="buff Bedroll Heal" description_key="buffBedrollHealDesc" tooltip_key="buffBedrollHealTip" icon="ui_game_symbol_add" icon_color="255,0,0">
+      <stack_type value="replace"/>
+      <duration value="0.5"/>
+      <effect_group>
+  			<passive_effect name="WaterChangeOT" operation="base_add" value="1"/>
+        <passive_effect name="FoodChangeOT" operation="base_add" value="1"/>
+        <passive_effect name="HealthChangeOT" operation="base_add" value="1"/>
+        <passive_effect name="HypothermalResist" operation="base_add" value="30"/>
+  			<passive_effect name="HyperthermalResist" operation="base_add" value="30"/>
+  		</effect_group>
+    </buff>
+  </append>
+</testBuffs>

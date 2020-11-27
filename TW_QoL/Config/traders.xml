@@ -1,0 +1,5 @@
+<qol_traders>
+  <!-- Let's make the traders always open :D -->
+  <removeattribute xpath="/traders/trader_info/@close_time"/>
+  <removeattribute xpath="/traders/trader_info/@open_time"/>
+</qol_traders>

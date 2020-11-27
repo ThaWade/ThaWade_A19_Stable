@@ -1,0 +1,8 @@
+<tw_qolBlocks>
+  <!-- Make iron ore viens drop raw iron instead of scrap iron -->
+  <set xpath="/blocks/block[@name='terrOreIron']/drop[1]/@name">resourceIronFragment</set>
+  
+  <append xpath="/blocks/block[@name='bedroll']">
+    <property name="BuffsWhenWalkedOn" value="buffBedrollHeal"/>
+  </append>
+</tw_qolBlocks>
