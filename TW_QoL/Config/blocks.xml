@@ -1,8 +1,19 @@
 <tw_qolBlocks>
   <!-- Make iron ore viens drop raw iron instead of scrap iron -->
   <set xpath="/blocks/block[@name='terrOreIron']/drop[1]/@name">resourceIronFragment</set>
-  
+
+<!-- Add our healing buff to the bedroll
+see ~/TW_QoL/Config/buffs.xml-->
   <append xpath="/blocks/block[@name='bedroll']">
     <property name="BuffsWhenWalkedOn" value="buffBedrollHeal"/>
   </append>
+
+<!-- Undamaged cars have a chance to drop vehicleWheels -->
+  <insertAfter xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[5]">
+    <drop event="Harvest" name="vehicleWheels" count="0,4" prob="0.1" tag="salvageHarvest"/>
+  </insertAfter>
+<!-- Tires with rims have a chance to drop vehicleWheels -->
+  <insertAfter xpath="/blocks/block[@name='decoCarWheelFlat']/drop[@event='Destroy' and @name='resourceScrapIron']">
+    <drop event="Destroy" name="vehicleWheels" count="0,1" prob="0.1" tag="salvageHarvest"/>
+  </insertAfter>
 </tw_qolBlocks>
