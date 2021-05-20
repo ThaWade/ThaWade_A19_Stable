@@ -8,11 +8,20 @@ see ~/TW_QoL/Config/buffs.xml-->
     <property name="BuffsWhenWalkedOn" value="buffBedrollHeal"/>
   </append>
 
-<!-- Undamaged cars have a chance to drop vehicleWheels -->
-  <insertAfter xpath="/blocks/block[@name='cntCar03SedanDamage0Master']/drop[5]">
-    <drop event="Harvest" name="vehicleWheels" count="0,4" prob="0.1" tag="salvageHarvest"/>
-  </insertAfter>
-<!-- Tires with rims have a chance to drop vehicleWheels -->
+<!-- Add chance for undamaged cars to drop wheels(vehicleWheels) -->
+<insertBefore xpath="/blocks/block[starts-with(@name,'cntCar03SedanDamage0')]/property[@name='DowngradeBlock']">
+  <drop event="Harvest" name="vehicleWheels" count="0,4" prob="0.1" tag="salvageHarvest"/>
+</insertBefore>
+<!-- Add chance for buses to drop wheels(vehicleWheels) -->
+<append xpath="/blocks/block[starts-with(@name,'cntBus')]">
+  <drop event="Harvest" name="vehicleWheels" count="0,4" prob="0.1" tag="salvageHarvest"/>
+</append>
+<!-- Add chance for army trucks to drop wheels(vehicleWheels) -->
+<append xpath="/blocks/block[starts-with(@name,'cntArmyTruck')]">
+  <drop event="Harvest" name="vehicleWheels" count="0,4" prob="0.1" tag="salvageHarvest"/>
+</append>
+
+<!-- Tires with rims(decoCarWheelFlat) have a chance to drop wheels(vehicleWheels) -->
   <insertAfter xpath="/blocks/block[@name='decoCarWheelFlat']/drop[@event='Destroy' and @name='resourceScrapIron']">
     <drop event="Destroy" name="vehicleWheels" count="0,1" prob="0.1" tag="salvageHarvest"/>
   </insertAfter>
