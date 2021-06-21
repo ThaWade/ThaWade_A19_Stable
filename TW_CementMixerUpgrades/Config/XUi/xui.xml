@@ -1,0 +1,5 @@
+<tw_cementMixerUpgradesXuiConfig>
+  <insertAfter xpath="/xui/ruleset/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']">
+    <window name="windowEnginesCementMixer"/>
+  </insertAfter>
+</tw_cementMixerUpgradesXuiConfig>

@@ -1,0 +1,36 @@
+<tw_cementMixerUpgradeItemsConfig>
+  <remove xpath="/items/item[@name='smallEngine']"/>
+
+  <insertAfter xpath="/items/item[@name='candle']">
+    <item name="smallEngine">
+    	<property name="HoldType" value="45"/>
+    	<property name="Tags" value="junk, TW_smallEngine"/>
+    	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+    	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+    	<property name="Material" value="MsmallEngine"/>
+    	<property name="RepairTools" value="resourceRepairKit"/>
+    	<property name="Stacknumber" value="1"/>
+    	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
+    	<property name="EconomicValue" value="1000"/>
+    	<property name="Group" value="Resources"/>
+    	<property name="DegradationBreaksAfter" value="false"/>
+    	<property class="Attributes">
+    		<property name="DegradationMax" value="1000,6000"/> <!-- needed for electrical calculations -->
+    		<property name="VehicleNoise" value="1,.1"/>
+    		<property name="VehicleMaxSpeed" value="5,18"/>
+    		<property name="VehicleAcceleration" value="7,14"/>
+    		<property name="VehicleMetersPerLiter" value="8,12"/>
+    		<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+    		<property name="VehicleStartDelayInSeconds" value="1,.1"/>
+    		<property name="VehicleStartChance" value=".5,.99"/>
+    		<property name="VehicleTankSize" value="1000, 2000"/>
+    		<property name="VehicleFuelItem" value="ammoGasCan"/>
+    	</property>
+      <effect_group tiered="true">
+        <requirement name="!HoldingItemHasTags" tags="TW_smallEngine"/>
+        <passive_effect name="CraftingTime" operation="perc_add" value="-.2664"/>
+        <display_value name="dCraftingTime" value=".4"/>
+      </effect_group>
+    </item>
+  </insertAfter>
+</tw_cementMixerUpgradeItemsConfig>

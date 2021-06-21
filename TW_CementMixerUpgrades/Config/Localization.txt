@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate
+
+smallEngine,items,Part,,,Engine,,Motor,Motor,Moteur,Motore,エンジン,엔진,Silnik,Motor,Двигатель,Motor,发动机,發動機,Motor
+smallEngineDesc,items,Part,,,A common part for vehicles or generators.\nCan also be used in a Cement Mixer to reduce crafting time.,,
