@@ -9,12 +9,14 @@
 <!-- STONE remove or add shovel? -->
   <!-- AXE -->
     <item name = "TW_stoneAxe">
-      <property name="Tags" value="axe,melee,light,tool,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic,twHarvest"/>
+      <property name="Tags" value="axe,melee,light,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,perkTheHuntsman,canHaveCosmetic,twHarvest"/>
       <property name="DisplayType" value="meleeRepairTool"/>
       <property name="HoldType" value="32"/>
       <property name="CustomIcon" value="meleeToolRepairT0StoneAxe"/>
     	<property name="CustomIconTint" value="bf0000"/>
       <property name="Meshfile" value="#Other/Items?Weapons/Melee/Axe/stone_axePrefab.prefab"/>
+      <!--<property name="UMA.Overlay0Tint" value="149,52,54"/>DOESN'T SEEM TO DO ANYTHING.-->
+    	<!--<property name="TintColor" value="FF3333"/> CHANGES TINT TO AQUA? NO MATTER THE VALUE ADDED-->
       <property name="Material" value="Mstone"/>
       <property name="RepairTools" value="resourceRockSmall"/>
       <property name="EconomicValue" value="175"/>
@@ -73,7 +75,7 @@
       </item>
     <!-- SHOVEL -->
       <item name="TW_stoneShovel"> <!-- T1 Tools -->
-      	<property name="Tags" value="melee,grunting,medium,tool,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
+      	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
       	<property name="DisplayType" value="melee"/>
       	<property name="HoldType" value="18"/>
         <property name="CustomIcon" value="meleeToolShovelT0StoneShovel"/>
@@ -135,7 +137,7 @@
 <!-- IRON -->
   <!-- PICKAXE -->
     <item name="TW_ironPickaxe"> <!-- T2 Tools -->
-      <property name="Tags" value="melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic,twHarvest"/>
+      <property name="Tags" value="melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic,twHarvest"/>
       <property name="DisplayType" value="melee"/>
       <property name="HoldType" value="63"/>
       <property name="CustomIcon" value="meleeToolPickT1IronPickaxe"/>
@@ -212,7 +214,7 @@
     </item>
   <!-- FIREAXE -->
     <item name="TW_ironFireaxe"> <!-- T2 Tools -->
-    	<property name="Tags" value="axe,melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
+    	<property name="Tags" value="axe,melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
     	<property name="DisplayType" value="melee"/>
     	<property name="HoldType" value="17"/>
     	<property name="CustomIcon" value="meleeToolAxeT1IronFireaxe"/> <!-- xxx model to be replaced -->
@@ -295,7 +297,7 @@
   <!-- SHOVEL -->
     <item name="TW_ironShovel"> <!-- T2 Tools -->
     	<property name="Extends" value="TW_stoneShovel"/>
-    	<property name="Tags" value="melee,grunting,medium,tool,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
+    	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
       <property name="CustomIcon" value="meleeToolShovelT1IronShovel"/>
       <property name="CustomIconTint" value="800000"/>
     	<property name="Meshfile" value="#Other/Items?Tools/shovel_ironPrefab.prefab"/>
@@ -517,7 +519,7 @@
     <!-- SHOVEL -->
     <item name="TW_steelShovel"> <!-- T3 Tools -->
     	<property name="Extends" value="TW_ironShovel"/>
-    	<property name="Tags" value="melee,grunting,medium,tool,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
+    	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic,twHarvest"/>
     	<property name="Meshfile" value="#Other/Items?Tools/shovel_steelPrefab.prefab"/>
     	<property name="CustomIcon" value="meleeToolShovelT1IronShovel"/>
     	<property name="CustomIconTint" value="2B1C1C"/>
@@ -726,7 +728,7 @@
     </item>
 
     <item name="TW_Wrench"> <!-- T2 Salvage -->
-    	<property name="Tags" value="blunt,melee,grunting,light,tool,attPerception,perkSalvageOperations,canHaveCosmetic,twHarvest"/>
+    	<property name="Tags" value="blunt,melee,grunting,light,tool,longShaft,attPerception,perkSalvageOperations,canHaveCosmetic,twHarvest"/>
     	<property name="DisplayType" value="melee"/>
     	<property name="HoldType" value="29"/>
       <property name="CustomIcon" value="meleeToolSalvageT1Wrench"/>
