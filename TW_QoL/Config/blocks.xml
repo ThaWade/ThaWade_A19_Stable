@@ -1,6 +1,9 @@
 <tw_qolBlocks>
-  <!-- Make iron ore viens drop raw iron instead of scrap iron -->
+<!-- Make iron ore viens drop raw iron instead of scrap iron -->
   <set xpath="/blocks/block[@name='terrOreIron']/drop[1]/@name">resourceIronFragment</set>
+
+<!-- Reduce crop grow time -->
+  <set xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">2</set>
 
 <!-- Add our healing buff to the bedroll
 see ~/TW_QoL/Config/buffs.xml-->
